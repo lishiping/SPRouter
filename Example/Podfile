@@ -4,6 +4,7 @@ platform :ios, '10.0'
 
 target 'SPRouter_Example' do
   pod 'SPRouter', :path => '../'
+  pod 'SPFastPush'
 
   target 'SPRouter_Tests' do
     inherit! :search_paths

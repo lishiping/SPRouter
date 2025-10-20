@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		339B728E2EA62F7F00B69B31 /* SPDemoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B728D2EA62F7F00B69B31 /* SPDemoModule.m */; };
+		339B72912EA632C300B69B31 /* SPDemoBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B72902EA632C300B69B31 /* SPDemoBController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,9 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19AF1ED0EEC8575E24EAE24F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		19AF1ED0EEC8575E24EAE24F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1AE0D14B8879A0BC07711595 /* Pods-SPRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPRouter_Example.release.xcconfig"; path = "Target Support Files/Pods-SPRouter_Example/Pods-SPRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		22D7B30A669171E55AB23009 /* SPRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SPRouter.podspec; path = ../SPRouter.podspec; sourceTree = "<group>"; };
+		22D7B30A669171E55AB23009 /* SPRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SPRouter.podspec; path = ../SPRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		339B728C2EA62F7F00B69B31 /* SPDemoModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPDemoModule.h; sourceTree = "<group>"; };
+		339B728D2EA62F7F00B69B31 /* SPDemoModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDemoModule.m; sourceTree = "<group>"; };
+		339B728F2EA632C300B69B31 /* SPDemoBController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPDemoBController.h; sourceTree = "<group>"; };
+		339B72902EA632C300B69B31 /* SPDemoBController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDemoBController.m; sourceTree = "<group>"; };
 		39F7022056BA6FED275F673C /* Pods-SPRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-SPRouter_Example/Pods-SPRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		463BB340CE08EBDC0D99F10D /* Pods_SPRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SPRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +70,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79AC8CB0796A2B34C6D7AC4D /* Pods-SPRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPRouter_Tests.release.xcconfig"; path = "Target Support Files/Pods-SPRouter_Tests/Pods-SPRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A393F36F959A0983E8DFF973 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A393F36F959A0983E8DFF973 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E2E293463666469BBEBE50B2 /* Pods_SPRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69A2613FF268887B354FCF8 /* Pods-SPRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SPRouter_Tests/Pods-SPRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +143,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* SPViewController.h */,
 				6003F5A6195388D20070C39A /* SPViewController.m */,
+				339B728F2EA632C300B69B31 /* SPDemoBController.h */,
+				339B72902EA632C300B69B31 /* SPDemoBController.m */,
+				339B728C2EA62F7F00B69B31 /* SPDemoModule.h */,
+				339B728D2EA62F7F00B69B31 /* SPDemoModule.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +203,6 @@
 				F69A2613FF268887B354FCF8 /* Pods-SPRouter_Tests.debug.xcconfig */,
 				79AC8CB0796A2B34C6D7AC4D /* Pods-SPRouter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +267,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,9 +374,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				339B72912EA632C300B69B31 /* SPDemoBController.m in Sources */,
 				6003F59E195388D20070C39A /* SPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				339B728E2EA62F7F00B69B31 /* SPDemoModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +509,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SPRouter/SPRouter-Prefix.pch";
 				INFOPLIST_FILE = "SPRouter/SPRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +526,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SPRouter/SPRouter-Prefix.pch";
 				INFOPLIST_FILE = "SPRouter/SPRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

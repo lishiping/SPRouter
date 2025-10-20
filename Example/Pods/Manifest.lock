@@ -1,0 +1,16 @@
+PODS:
+  - SPRouter (0.1.0)
+
+DEPENDENCIES:
+  - SPRouter (from `../`)
+
+EXTERNAL SOURCES:
+  SPRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SPRouter: 5498176d8ff34f99e9991933db4ba47bf0515d55
+
+PODFILE CHECKSUM: b1b63cd867d0993a7042149058d63e47d2c32f8c
+
+COCOAPODS: 1.11.0

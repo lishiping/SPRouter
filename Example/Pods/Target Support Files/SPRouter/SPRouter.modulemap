@@ -1,0 +1,6 @@
+framework module SPRouter {
+  umbrella header "SPRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}
