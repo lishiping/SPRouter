@@ -74,7 +74,7 @@
     if ([title isEqualToString:@"测试组件之间路由跳转"]) {
         
 //        NSError *error;
-//        id ret = [SPRouter openURL:@"router//SPDemoModule/pushVC" arg:@{@"title":@"测试跳转页面"} error:&error completion:^(id  _Nullable object) {
+//        id ret = [SPRouter openURL:@"router://SPDemoModule/pushVC" arg:@{@"title":@"测试跳转页面"} error:&error completion:^(id  _Nullable object) {
 //            NSLog(@"打印==%@",object);
 //        }];
         
